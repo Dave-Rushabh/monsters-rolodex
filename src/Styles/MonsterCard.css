@@ -1,0 +1,57 @@
+.main-container{
+    display: flex;
+    margin: auto;
+    width: 95vw;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    }
+
+.monster-container{
+    height : 290px;
+    width: 250px;
+    background-color: #e9edc9;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+.monster-img{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    margin: auto;
+}
+
+.monster-img > img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+
+.monster-name{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.monster-name > span {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.main-container-search{
+    display: flex;
+    margin: auto;
+    width: 90vw;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 10px;
+}

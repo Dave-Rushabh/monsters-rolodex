@@ -1,0 +1,23 @@
+.search-container{
+    width: 90vw;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.search-field{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.search-field > input {
+    width: 32vw;
+    height: 40px;
+    padding-left: 20px;
+    font-size: large;
+}
